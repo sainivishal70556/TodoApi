@@ -17,16 +17,19 @@ Delete a Task: Remove a task from the list by its ID.
 # Setup
 ## Extract the file to unzip.
 
-
+### Code Implementation
+#### 1. Initialize Node.js project
 bash:
+{
+   
+   
+    mkdir todo-app
+    cd todo-app
+    npm init -y
+    npm install express
+}
+#### 2. Paste the server.js file in todo-app from zip file
 
-cd  directory-name and 
-Install dependencies
-
-bash:
-
-npm install
-********
 
 The API is ready to run on your local machine.
 ***********
